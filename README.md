@@ -31,3 +31,9 @@ clean_homepage.py ➔ (筛除 <30分钟 视频) ➔ [清洗后的精简数据]
    ┌─────────────────────────────────────────────┘
    ▼
 b_tools.py ➔ [最终处理/分析/导出结果]
+
+### 难度评级脚本使用流程
+  cd difficulty_rating
+  python difficulty_rating.py       #
+  生成评级表
+  python import_to_crawledData.py   # 导入到crawledData(数据文件夹)
